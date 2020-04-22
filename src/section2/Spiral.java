@@ -21,5 +21,15 @@ public class Spiral {
 		
 			// 8. Set the pen width to i
 			
+		Robot Kylo = new Robot();
+				Kylo.penDown();
+		Kylo.setSpeed(100);
+		for (int i = 0; i < 75; i++) {
+			Kylo.move(5*i);
+			Kylo.turn(360/7);
+			Kylo.setPenWidth(i);
+			
+		}
+		
 	}
 }

@@ -31,6 +31,18 @@ public class PentagonCrazy {
 	
 			// 11. Turn the robot one more degree
 
+	Robot Kylo = new Robot ();
+	Kylo.penDown();
+	Kylo.setSpeed(100);
+	Kylo.setRandomPenColor();
+	int sides=20;
+	int angles = 162;
+	for (int i = 0; i < 200; i++) {
+		Kylo.move(i);
+		Kylo.turn(angles);
+		Kylo.turn(1);
+	}
+		
 	}
 
 	// Variations:
