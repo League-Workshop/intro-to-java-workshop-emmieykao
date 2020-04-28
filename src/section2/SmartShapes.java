@@ -25,5 +25,18 @@ public class SmartShapes {
     	
     		// 7. Change steps 4 and 5 to draw a different shape (e.g. triangle (3-sides), pentagon (5-sides), decagon (10-sides)).
    
+    	Robot Kylo=new Robot(); 
+    	Kylo.moveTo(100, 300);
+    	Kylo.penDown();
+    	Kylo.setSpeed(100);
+    	for (int i = 0; i < 3; i++) {
+			Kylo.move(200);
+			Kylo.turn(120);
+		}
+    
+    
+    
     }
 }
+
+

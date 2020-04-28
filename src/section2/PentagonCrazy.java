@@ -36,7 +36,7 @@ public class PentagonCrazy {
 	Kylo.setSpeed(100);
 	Kylo.setRandomPenColor();
 	int sides=20;
-	int angles = 162;
+	int angles = 360/5;
 	for (int i = 0; i < 200; i++) {
 		Kylo.move(i);
 		Kylo.turn(angles);
