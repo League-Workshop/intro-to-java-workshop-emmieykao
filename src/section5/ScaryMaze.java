@@ -29,7 +29,7 @@ public class ScaryMaze extends JPanel implements Runnable, MouseMotionListener {
 		//2. Change the line of code above so that it matches your maze's file name
 		
 		//3. Set the mouse pointer to the start of your maze using:
-		new Robot().mouseMove(45, 110);
+		new Robot().mouseMove(45, 115);
 		
 		//4. Add a mouse motion listener using:
 		addMouseMotionListener(this);
@@ -69,10 +69,10 @@ public class ScaryMaze extends JPanel implements Runnable, MouseMotionListener {
 		//11. Play the scary sound. Hint: type "sound" and then a period.		
 		sound.play();
 		//12. Drop an image into your section5 package, and use the showScaryImage method to scare your victim!
-		showScaryImage(String "standardScaryPicture.jpg");}
+		showScaryImage("standardScaryPicture.jpg");}
 	
 
-	private void showScaryImage(String "standardScaryPicture.jpg") {
+	private void showScaryImage(String standardScaryPicture) {
 		try {
 			maze = ImageIO.read(getClass().getResource(standardScaryPicture));
 		} catch (Exception e) {
